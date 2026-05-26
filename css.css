@@ -1,22 +1,23 @@
 
 
 body {
-    margin: 10px;
+    padding: 50px;
     font-family: Arial;
     background: rgb(255, 255, 255);
     color: rgb(3, 3, 3);
 }
 
 
-header {
+h1 {    
     text-align: center;
     padding: 20px;
-    color: rgb(255, 255, 255);
+    font-size: 50px;
+    color: rgb(63, 60, 70);
 }
 
 #juegos {
     display: grid;
-    grid-template-columns: repeat(5, 2fr);
+    grid-template-columns: repeat(2, 5fr);
     gap: 20px;
     padding: 20px;
 }
@@ -31,4 +32,7 @@ header {
 img {
     width: 100%;
     border-radius: 10px;
+}
+p {
+    padding-left: 20px;
 }

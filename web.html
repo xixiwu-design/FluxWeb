@@ -19,7 +19,7 @@ fetch("https://jsonkeeper.com/b/WAWD6")
     .then(res => res.json())
     .then(data => {
 
-        const container = document.getElementById("juegos");
+        const div = document.getElementById("juegos");
         let html = "";
 
         const juegos = data.videojuegos.videojuego;
@@ -33,21 +33,20 @@ fetch("https://jsonkeeper.com/b/WAWD6")
 
             html += `
                 <div class="card">
-                    <img src="${juego.foto}" alt="${juego.nombre}">
+                    <img src="${juego.foto}">
                     <h2>${juego.nombre}</h2>
-                    <p><strong>Desarrolladora:</strong> ${juego.desarrolladora}</p>
-                    <p><strong>Género:</strong> ${juego.genero}</p>
-                    <p><strong>Plataformas:</strong> ${plataformas}</p>
-                    <p><strong>Precio:</strong> ${juego.precio} €</p>
-                    <p><strong>Lanzamiento:</strong> ${juego.lanzamiento}</p>
-                    <p><strong>Modo:</strong> ${juego.modo}</p>
+                    <p><strong>Desarrolladora: </strong> ${juego.desarrolladora}</p>
+                    <p><strong>Género: </strong> ${juego.genero}</p>
+                    <p><strong>Plataformas: </strong> ${plataformas}</p>
+                    <p><strong>Precio: </strong> ${juego.precio} €</p>
+                    <p><strong>Lanzamiento: </strong> ${juego.lanzamiento}</p>
+                    <p><strong>Modo: </strong> ${juego.modo}</p>
                 </div>
             `;
         });
 
-        container.innerHTML = html;
-    })
-    .catch(err => console.error(err));
+        div.innerHTML = html;
+    }).catch(err => console.error(err));
 </script>
 
 </body>
