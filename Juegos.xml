@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<videojuegos>
+
+    <videojuego id="1">
+
+        <nombre>GTA V</nombre>
+        <desarrolladora>Rockstar Games</desarrolladora>
+        <genero>Acción, Aventura</genero>
+        <plataformas>
+            <plataforma>PlayStation</plataforma>
+            <plataforma>Xbox</plataforma>
+            <plataforma>PC</plataforma>
+        </plataformas>
+        <precio moneda="EUR">29.99</precio>
+        <foto>https://cdn.cloudflare.steamstatic.com/steam/apps/271590/header.jpg?t=1686782218</foto>
+        <lanzamiento>2013</lanzamiento>
+        <modo>Multijugador</modo>
+    </videojuego>
+
+    <videojuego id="2">
+
+        <nombre>Call of Duty: Modern Warfare</nombre>
+        <desarrolladora>Infinity Ward</desarrolladora>
+        <genero>FPS, Acción</genero>
+        <plataformas>
+            <plataforma>PlayStation</plataforma>
+            <plataforma>Xbox</plataforma>
+            <plataforma>PC</plataforma>
+        </plataformas>
+        <precio moneda="EUR">39.99</precio>
+        <foto>https://cdn.cloudflare.steamstatic.com/steam/apps/1938090/header.jpg?t=1686782218</foto>
+        <lanzamiento>2019</lanzamiento>
+        <modo>Single-player y Multijugador</modo>
+    </videojuego>
+
+    <videojuego id="3">
+
+        <nombre>There Is No Game: Wrong Dimension</nombre>
+        <desarrolladora>Draw Me A Pixel</desarrolladora>
+        <genero>Puzzle, Indie</genero>
+        <plataformas>
+            <plataforma>iOS</plataforma>
+            <plataforma>Android</plataforma>
+            <plataforma>PC</plataforma>
+        </plataformas>
+        <foto>https://cdn.cloudflare.steamstatic.com/steam/apps/1240210/header.jpg</foto>
+        <precio moneda="EUR">12.99</precio>
+        <lanzamiento>2020</lanzamiento>
+        <modo>Single-player</modo>
+    </videojuego>
+
+    <videojuego id="4">
+        <nombre>Cyberpunk 2077</nombre>
+        <desarrolladora>CD Projekt Red</desarrolladora>
+        <genero>RPG, Acción</genero>
+        <plataformas>
+            <plataforma>PlayStation</plataforma>
+            <plataforma>Xbox</plataforma>
+            <plataforma>PC</plataforma>
+        </plataformas>
+        <precio moneda="EUR">49.99</precio>
+        <foto>https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/header.jpg?t=1686782218</foto>
+        <lanzamiento>2020</lanzamiento>
+        <modo>Single-player</modo>
+    </videojuego>
+
+    <videojuego id="5">
+
+    <nombre>Volcano Princess</nombre>
+    <desarrolladora>Egg Hatcher</desarrolladora>
+    <genero>Simulación, RPG</genero>
+    <plataformas>
+        <plataforma>PC</plataforma>
+        <plataforma>Nintendo Switch</plataforma>
+    </plataformas>
+    <foto>https://cdn.cloudflare.steamstatic.com/steam/apps/1669980/header.jpg</foto>
+    <precio moneda="EUR">10.99</precio>
+    <lanzamiento>2023</lanzamiento>
+    <modo>Single-player</modo>
+</videojuego>
+
+<videojuego id="6">
+
+    <nombre>Backrooms: Escape Together</nombre>
+    <desarrolladora>Cryptic Studio</desarrolladora>
+    <genero>Horror, Cooperativo, Survival</genero>
+    <plataformas>
+        <plataforma>PC</plataforma>
+    </plataformas>
+    <foto>https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2141730/header.jpg?t=1779748237</foto>
+    <precio moneda="EUR">9.75</precio>
+    <lanzamiento>2022</lanzamiento>
+    <modo>Multijugador cooperativo</modo>
+</videojuego>
+
+<videojuego id="7">
+
+    <nombre>Hollow Knight</nombre>
+
+    <desarrolladora>Team Cherry</desarrolladora>
+    <genero>Metroidvania, Acción, Indie</genero>
+    <plataformas>
+        <plataforma>PC</plataforma>
+        <plataforma>Nintendo Switch</plataforma>
+        <plataforma>PlayStation</plataforma>
+        <plataforma>Xbox</plataforma>
+    </plataformas>
+    <foto>https://cdn.cloudflare.steamstatic.com/steam/apps/367520/header.jpg</foto>
+    <precio moneda="EUR">14.79</precio>
+    <lanzamiento>2017</lanzamiento>
+    <modo>Single-player</modo>
+</videojuego>
+
+<videojuego id="8">
+
+    <nombre>Hollow Knight: Silksong</nombre>
+    <desarrolladora>Team Cherry</desarrolladora>
+    <genero>Metroidvania, Acción, Indie</genero>
+    <plataformas>
+        <plataforma>PC</plataforma>
+        <plataforma>Nintendo Switch</plataforma>
+        <plataforma>PlayStation</plataforma>
+        <plataforma>Xbox</plataforma>
+    </plataformas>
+    <foto>https://cdn.cloudflare.steamstatic.com/steam/apps/1030300/header.jpg</foto>
+    <precio moneda="EUR">19.5</precio>
+    <lanzamiento>2025</lanzamiento>
+    <modo>Single-player</modo>
+</videojuego>
+
+<videojuego id="9">
+
+    <nombre>DAVE THE DIVER</nombre>
+    <desarrolladora>Mintrocket</desarrolladora>
+    <genero>Aventura, Simulación, RPG</genero>
+    <plataformas>
+        <plataforma>PC</plataforma>
+        <plataforma>Nintendo Switch</plataforma>
+        <plataforma>PlayStation</plataforma>
+        <plataforma>Xbox</plataforma>
+    </plataformas>
+    <foto>https://cdn.cloudflare.steamstatic.com/steam/apps/1868140/header.jpg</foto>
+    <precio moneda="EUR">19.99</precio>
+    <lanzamiento>2023</lanzamiento>
+    <modo>Single-player</modo>
+</videojuego>
+
+<videojuego id="10">
+
+    <nombre>Bugsnax</nombre>
+    <desarrolladora>Young Horses</desarrolladora>
+    <genero>Aventura, Misterio, Simulación</genero>
+    <plataformas>
+        <plataforma>PC</plataforma>
+        <plataforma>PlayStation</plataforma>
+        <plataforma>Nintendo Switch</plataforma>
+    </plataformas>
+    <foto>https://cdn.cloudflare.steamstatic.com/steam/apps/674140/header.jpg</foto>
+    <precio moneda="EUR">20.99</precio>
+    <lanzamiento>2022</lanzamiento>
+    <modo>Single-player</modo>
+</videojuego>
+
+</videojuegos>
