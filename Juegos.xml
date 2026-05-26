@@ -124,7 +124,7 @@
         <plataforma>Xbox</plataforma>
     </plataformas>
     <foto>https://cdn.cloudflare.steamstatic.com/steam/apps/1030300/header.jpg</foto>
-    <precio moneda="EUR">19.5</precio>
+    <precio moneda="EUR">19.50</precio>
     <lanzamiento>2025</lanzamiento>
     <modo>Single-player</modo>
 </videojuego>

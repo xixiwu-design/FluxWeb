@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VideoJuegos</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+
+    <h1>VideoJuegos</h1>
+
+    <div id="juegos"></div>
+
+   <script>
+fetch("https://jsonkeeper.com/b/WAWD6")
+    .then(res => res.json())
+    .then(data => {
+
+        const container = document.getElementById("juegos");
+        let html = "";
+
+        const juegos = data.videojuegos.videojuego;
+
+        juegos.forEach(juego => {
+
+            
+            let plataformas = Array.isArray(juego.plataformas.plataforma)
+                ? juego.plataformas.plataforma.join(", ")
+                : juego.plataformas.plataforma;
+
+            html += `
+                <div class="card">
+                    <img src="${juego.foto}" alt="${juego.nombre}">
+                    <h2>${juego.nombre}</h2>
+                    <p><strong>Desarrolladora:</strong> ${juego.desarrolladora}</p>
+                    <p><strong>Género:</strong> ${juego.genero}</p>
+                    <p><strong>Plataformas:</strong> ${plataformas}</p>
+                    <p><strong>Precio:</strong> ${juego.precio} €</p>
+                    <p><strong>Lanzamiento:</strong> ${juego.lanzamiento}</p>
+                    <p><strong>Modo:</strong> ${juego.modo}</p>
+                </div>
+            `;
+        });
+
+        container.innerHTML = html;
+    })
+    .catch(err => console.error(err));
+</script>
+
+</body>
+
+</html>
