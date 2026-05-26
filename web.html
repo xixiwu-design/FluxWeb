@@ -14,24 +14,24 @@
 
     <div id="juegos"></div>
 
-   <script>
-fetch("https://jsonkeeper.com/b/WAWD6")
-    .then(res => res.json())
-    .then(data => {
+    <script>
+        fetch("https://jsonkeeper.com/b/WAWD6")
+            .then(res => res.json())
+            .then(data => {
 
-        const div = document.getElementById("juegos");
-        let html = "";
+                div = document.getElementById("juegos");
+                let html = "";
 
-        const juegos = data.videojuegos.videojuego;
+                juegos = data.videojuegos.videojuego;
 
-        juegos.forEach(juego => {
+                juegos.forEach(juego => {
 
-            
-            let plataformas = Array.isArray(juego.plataformas.plataforma)
-                ? juego.plataformas.plataforma.join(", ")
-                : juego.plataformas.plataforma;
 
-            html += `
+                    let plataformas = Array.isArray(juego.plataformas.plataforma)
+                        ? juego.plataformas.plataforma.join(", ")
+                        : juego.plataformas.plataforma;
+
+                    html += `
                 <div class="card">
                     <img src="${juego.foto}">
                     <h2>${juego.nombre}</h2>
@@ -43,11 +43,11 @@ fetch("https://jsonkeeper.com/b/WAWD6")
                     <p><strong>Modo: </strong> ${juego.modo}</p>
                 </div>
             `;
-        });
+                });
 
-        div.innerHTML = html;
-    }).catch(err => console.error(err));
-</script>
+                div.innerHTML = html;
+            }).catch(err => console.error(err));
+    </script>
 
 </body>
 
